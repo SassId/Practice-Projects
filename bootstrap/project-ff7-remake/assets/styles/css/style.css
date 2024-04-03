@@ -1,0 +1,57 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+/** GENERAL */
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-image: url('../../img/white-cloud-blue-sky.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+
+/* * HEADER */
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar {
+   background-color: white !important ;
+   opacity: 95%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    /* color: rgb(137, 0, 27) !important; */
+    color: rgb(157, 11, 11) !important;
+}
+
+.navbar-toggler {
+    /* color: red !important; */
+}
+
+/** MAIN */
+
+main {
+    margin-block: 20px;
+}
+
