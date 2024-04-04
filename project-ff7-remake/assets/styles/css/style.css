@@ -56,21 +56,15 @@ h1 {
     margin-block: 20px;
 }  */
 
-.card-part {
-    margin: auto;
-}
 
 .card {
     background-color: rgba(255, 255, 255, 0.396);
 }
 
-.renderpics {
-    margin: auto;
-}
 
 .renderpics > figure {
     width: 300px;
-    height: 375px;
+    height: 412px;
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -80,12 +74,12 @@ h1 {
 
 .renderpics figcaption {
     width: 300px;
-    height: 375px;
+    height: 412px;
     background: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
     position: absolute;
-    top: 375px;
+    top: 412px;
     left: 0;
     transition: 500ms;
 }
