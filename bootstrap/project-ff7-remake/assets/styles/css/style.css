@@ -24,6 +24,9 @@ h1 {
     text-transform: capitalize;
 }
 
+section {
+    margin-block: 100px;
+}
 
 /* * HEADER */
 
