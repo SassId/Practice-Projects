@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* GENERAL */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #ede7e1;
+    text-transform: capitalize;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 300px;
+    height: 400px;
+  }
+
+  h1 {
+    margin: 50px;
+    text-align: center;
+  }
+
+  .products button {
+    width: fit-content;
+    margin: auto ;
+    margin-top: 30px;
+    text-transform: capitalize;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    border: none;
+  }
+
+  .products button:hover {
+    background-color: #7A2126;
+    transition: background-color 1s;
+  }
+
+  .products button:active {
+    color: #7A2126;
+  }
+
+  .details {
+    /* text-align: center; */
+    width: fit-content;
+    margin-inline: auto;
+    font-size: small;
+    margin-top: 20px;
+  }
+
+  .details:hover {
+    color: #7A2126;
+    cursor: pointer;
+  }
+
+/* MAIN */
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.line1, .line2 {
+    /* border: solid; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin: 20px; */
+}
+
+.prod:hover {
+    transform: scale(1.2);
+}
+
+/* HIDDEN BLOCKS */
+.list-titles {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+  background-color: #454446;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  position: absolute; 
+  top: 500px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.hidden2 {
+  display: none;
+  background-color: #454446;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  position: absolute; 
+  top: 1000px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}

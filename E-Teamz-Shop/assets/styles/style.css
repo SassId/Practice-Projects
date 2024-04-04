@@ -1,0 +1,116 @@
+/* RESET */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mina:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Exo 2", Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+  /* HEADER */
+  header {
+    background-color: black ;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .name-site {
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+  }
+  
+  .icon {
+    font-size: 200%;
+    color: white;
+  }
+  
+  .icon:hover {
+    color: #7A2126;
+    transition: color 1s;
+  }
+
+  /* FOOTER */
+  .footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 150px;
+    /* flex-wrap: wrap; */
+    color: aliceblue;
+    padding: 50px;
+    ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+      padding-top: 15px;
+    }
+  }
+  
+  .copyright{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-block-end: 10px;
+    font-size: 12px;
+  }
+  
+  .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    
+    img{
+      width: 25px;
+      height: 25px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin: 10px;
+    }
+  
+    a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: #7A2126;
+    }
+  }
+  
+  .logo-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 7px;
+  }
