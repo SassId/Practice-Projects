@@ -24,6 +24,10 @@ h1 {
     text-transform: capitalize;
 }
 
+.font-italic {
+    font-style: italic;
+}
+
 /* section {
     margin-block: 100px;
 } */
@@ -69,7 +73,7 @@ h1 {
     cursor: pointer;
     overflow: hidden;
     border-radius: 20px;
-    border: 2px solid white;
+    /* border: 2px solid rgb(255, 255, 255); */
 }
 
 .renderpics figcaption {
@@ -89,12 +93,20 @@ figure:hover > figcaption {
 }
 
 section.renderpics > figure > img {
-    min-width: 100%;
-    max-width: 100%;
+    border-radius: 10px;
 }
 
-section.renderpics > figure > figcaption > span {
-    font-style: italic;
+/** FOOTER */
+
+footer {
+    min-height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.584);
+    margin-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.608);
+}
+
+.last-line img {
+    width: 100px;
 }
 
 
