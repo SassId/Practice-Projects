@@ -24,9 +24,9 @@ h1 {
     text-transform: capitalize;
 }
 
-section {
+/* section {
     margin-block: 100px;
-}
+} */
 
 /* * HEADER */
 
@@ -52,12 +52,57 @@ section {
 
 /** MAIN */
 
-main {
+ /* main {
     margin-block: 20px;
-}
+}  */
 
 .card-part {
     margin: auto;
 }
+
+.card {
+    background-color: rgba(255, 255, 255, 0.396);
+}
+
+.renderpics {
+    margin: auto;
+}
+
+.renderpics > figure {
+    width: 300px;
+    height: 375px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.renderpics figcaption {
+    width: 300px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 375px;
+    left: 0;
+    transition: 500ms;
+}
+
+figure:hover > figcaption {
+  top: 0;
+}
+
+section.renderpics > figure > img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+section.renderpics > figure > figcaption > span {
+    font-style: italic;
+}
+
+
 
 
