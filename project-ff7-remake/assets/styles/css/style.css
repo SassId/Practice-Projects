@@ -65,6 +65,12 @@ h1 {
     background-color: rgba(255, 255, 255, 0.396);
 }
 
+.card-part:hover {
+    background-color: white;
+    transform: scale(1.2);
+    z-index: 10;
+}
+
 
 .renderpics > figure {
     width: 300px;
@@ -101,13 +107,13 @@ section.renderpics > figure > img {
 footer {
     min-height: 80px;
     border: 1px solid rgba(255, 255, 255, 0.584);
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     background-color: rgba(255, 255, 255, 0.608);
 }
 
-footer img {
+/* footer img {
     width: 50px
-}
+} */
 
 
 /* .last-line img {
