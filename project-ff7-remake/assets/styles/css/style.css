@@ -67,6 +67,7 @@ h1 {
 
 .card-part:hover {
     background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.483);
     transform: scale(1.2);
     z-index: 10;
 }
@@ -100,6 +101,8 @@ figure:hover > figcaption {
 
 section.renderpics > figure > img {
     border-radius: 10px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 /** FOOTER */
@@ -109,10 +112,10 @@ footer {
     border: 1px solid rgba(255, 255, 255, 0.584);
     /* margin-top: 10vh; */
     background-color: rgba(255, 255, 255, 0.608);
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px; */
 }
 
 footer img {
