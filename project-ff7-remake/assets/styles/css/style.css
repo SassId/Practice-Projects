@@ -110,5 +110,20 @@ footer {
 }
 
 footer a:hover {
-  transform: scale(1.2);
+    animation: rotating 2s linear infinite;
+  /* transform: scale(1.2); */
+  /* transform: rotate(360deg); */
+}
+
+/* .profile-pic:hover {
+    transform: rotate(360deg);
+} */
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
