@@ -10,7 +10,7 @@ I created the characters' pictures' `background` using Canva.
 
 ---------------------------
 
-[Click Here](https://sassid.github.io/Practice-Projects/) to check it out now ! 😁
+[Click Here](https://sassid.github.io/FFVII-Remake-Showcase/index.html) to check it out now ! 😁
 
 ---------------------------
 
