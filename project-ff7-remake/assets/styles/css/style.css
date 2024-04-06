@@ -1,98 +1,85 @@
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: ;
+  src: url();
 }
 
 /** GENERAL */
 
-html{
-    scroll-behavior: smooth !important;
+html {
+  scroll-behavior: smooth !important;
 }
 
 body {
-    background-image: url('../../img/white-cloud-blue-sky.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../../img/white-cloud-blue-sky.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 h1 {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .font-italic {
-    font-style: italic;
+  font-style: italic;
 }
-
-/* section {
-    margin-block: 100px;
-} */
 
 /* * HEADER */
 
 .navbar-collapse {
-    justify-content: end;
+  justify-content: end;
 }
 
 .navbar {
-   background-color: white !important ;
-   opacity: 93%;
+  background-color: white !important ;
+  opacity: 93%;
 }
 
 .nav-link {
-    color: black;
+  color: black;
 }
 
 .nav-link.active {
-    /* color: rgb(137, 0, 27) !important; */
-    color: rgb(157, 11, 11) !important;
+  color: rgb(157, 11, 11) !important;
 }
-
-
 
 /** MAIN */
 
- /* main {
-    margin-block: 20px;
-}  */
-
-
 .card {
-    background-color: rgba(255, 255, 255, 0.396);
+  background-color: rgba(255, 255, 255, 0.396);
 }
 
 .card-part:hover {
-    background-color: white;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.483);
-    transform: scale(1.2);
-    z-index: 10;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.483);
+  transform: scale(1.2);
+  z-index: 10;
 }
 
-
 .renderpics > figure {
-    width: 300px;
-    height: 412px;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 20px;
-    /* border: 2px solid rgb(255, 255, 255); */
+  width: 300px;
+  height: 412px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+  /* border: 2px solid rgb(255, 255, 255); */
 }
 
 .renderpics figcaption {
-    width: 300px;
-    height: 412px;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px;
-    position: absolute;
-    top: 412px;
-    left: 0;
-    transition: 500ms;
+  width: 300px;
+  height: 412px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 412px;
+  left: 0;
+  transition: 500ms;
 }
 
 figure:hover > figcaption {
@@ -100,34 +87,28 @@ figure:hover > figcaption {
 }
 
 section.renderpics > figure > img {
-    border-radius: 10px;
-    max-width: 100%;
-    min-width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 /** FOOTER */
 
 footer {
-    min-height: 80px;
-    border: 1px solid rgba(255, 255, 255, 0.584);
-    /* margin-top: 10vh; */
-    background-color: rgba(255, 255, 255, 0.608);
-    /* display: flex;
+  min-height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.584);
+  /* margin-top: 10vh; */
+  background-color: rgba(255, 255, 255, 0.608);
+  /* display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px; */
 }
 
-footer img {
-    width: 50px
-    
+.profile-pic {
+  width: 100px;
 }
 
-
-/* .last-line img {
-    width: 100px;
-} */
-
-
-
-
+footer a:hover {
+  transform: scale(1.2);
+}
