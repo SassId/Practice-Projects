@@ -6,7 +6,7 @@ My team and i made this showcase website largely inspired by an existing one in 
 
 ---------------------------
 
-[Click Here](https://sassid.github.io/E-Teamz-Shop/) to check it out now ! 😁
+[Click Here](https://sassid.github.io/E-Teamz-Shop/index.html) to check it out now ! 😁
 
 ---------------------------
 ![index preview](./preview/index-preview.png)
