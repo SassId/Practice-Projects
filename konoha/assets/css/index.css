@@ -30,9 +30,9 @@ html {
 /* SECTION #2: EXPLORE */
 
 .explore img {
-    width: 250px;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .explore {
@@ -47,9 +47,9 @@ html {
 }
 
 .pics {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
